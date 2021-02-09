@@ -1,0 +1,40 @@
+#country-lists{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:40px 0;
+
+}
+.country-info{
+    border: 2px solid #a9be5c;
+    border-radius: 10px;
+    background-color: #a8d408a1;
+    width: 320px;
+    height: 270px;
+    text-align: center;
+    padding: 14px;
+    line-height: 29px;
+    
+}
+.country-info h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #576e04;
+}
+.country-info h4{
+    font-size: 22px;
+    color: #bb0e6a;
+}
+.country-info button{
+    font-size: 16px;
+    color: #220514;
+}
+.info{
+    color: #bb0e6a;
+    font-size: 20px;
+}
+.img{
+    width: 70px;
+}
+.img-tag{
+    width: 150px;
+}
